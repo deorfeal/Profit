@@ -25,9 +25,8 @@
                 <div class="main__product product" style="background-image: url(images/product-bg.png);">
                     <div class="container">
                         <div class="product__inner">
-                            <div class="product__products products">
-                                <div class="rates-slide__item rates-item rates-item--disabled rates-slide--first"
-                                    data-aos="zoom-in">
+                            <div class="product__products products" data-aos="zoom-in">
+                                <div class="rates-slide__item rates-item rates-item--disabled rates-slide--first" id="0">
                                     <h4 class="rates-item__title">
                                         buyer
                                     </h4>
@@ -98,8 +97,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="rates-slide__item rates-item rates-item--disabled rates-slide--second"
-                                    data-aos="zoom-in">
+                                <div class="rates-slide__item rates-item rates-item--disabled rates-slide--second" id="1">
                                     <h4 class="rates-item__title">
                                         traffic <br>
                                         pro
@@ -171,8 +169,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="rates-slide__item rates-item rates-item--active rates-slide--third"
-                                    data-aos="zoom-in">
+                                <div class="rates-slide__item rates-item rates-item--active rates-slide--third" id="2">
                                     <h4 class="rates-item__title">
                                         traffic <br>
                                         devil
@@ -244,8 +241,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="rates-slide__item rates-item rates-item--disabled rates-slide--fourth"
-                                    data-aos="zoom-in">
+                                <div class="rates-slide__item rates-item rates-item--disabled rates-slide--fourth" id="3">
                                     <h4 class="rates-item__title">
                                         founder
                                     </h4>
@@ -317,167 +313,175 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__product-window product-window">
+                            <div class="product__product-window product-window" data-aos="zoom-in">
+                                <div class="product-window__icon product-window__icon--first">
+                                    <img class="product-window__icon-img" src="images/product-window-icon.png" alt="img">
+                                </div>
+                                <div class="product-window__icon product-window__icon--second">
+                                    <img class="product-window__icon-img" src="images/product-window-logo.png" alt="img">
+                                </div>
                                 <form class="product-window__form product-form" action="#">
-                                    <div class="product-form__item product-item">
-                                        <div class="product-item__top">
-                                            <h2 class="product-item__top-title">
-                                                выбор курса
-                                            </h2>
-                                            <div class="product-item__top-digit">
-                                                01
-                                            </div>
-                                        </div>
-                                        <div class="product-item__tariffs tariffs">
-                                            <div class="tariffs__item">
-                                                <input class="tariffs__item-radio" type="radio">
-                                                <div class="tariffs__item-title">
-                                                    Buyer
-                                                </div>
-                                                <div class="tariffs__item-price">
-                                                    669$
+                                    <div class="product-form__inner">
+                                        <div class="product-form__item product-item">
+                                            <div class="product-item__top">
+                                                <h2 class="product-item__top-title">
+                                                    выбор курса
+                                                </h2>
+                                                <div class="product-item__top-digit">
+                                                    01
                                                 </div>
                                             </div>
-                                            <div class="tariffs__item">
-                                                <input class="tariffs__item-radio" type="radio">
-                                                <div class="tariffs__item-title">
-                                                    Traffic pro
+                                            <div class="product-item__tariffs tariffs">
+                                                <div class="tariffs__item">
+                                                    <input class="tariffs__item-radio" type="radio" id="0">
+                                                    <div class="tariffs__item-title">
+                                                        Buyer
+                                                    </div>
+                                                    <div class="tariffs__item-price">
+                                                        669$
+                                                    </div>
                                                 </div>
-                                                <div class="tariffs__item-price">
-                                                    1369$
+                                                <div class="tariffs__item">
+                                                    <input class="tariffs__item-radio" type="radio" id="1">
+                                                    <div class="tariffs__item-title">
+                                                        Traffic pro
+                                                    </div>
+                                                    <div class="tariffs__item-price">
+                                                        1369$
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="tariffs__item">
-                                                <input class="tariffs__item-radio" type="radio">
-                                                <div class="tariffs__item-title">
-                                                    Traffic devil
+                                                <div class="tariffs__item">
+                                                    <input class="tariffs__item-radio" type="radio" id="2">
+                                                    <div class="tariffs__item-title">
+                                                        Traffic devil
+                                                    </div>
+                                                    <div class="tariffs__item-price">
+                                                        2666$
+                                                    </div>
                                                 </div>
-                                                <div class="tariffs__item-price">
-                                                    2666$
-                                                </div>
-                                            </div>
-                                            <div class="tariffs__item">
-                                                <input class="tariffs__item-radio" type="radio">
-                                                <div class="tariffs__item-title">
-                                                    Founder
-                                                </div>
-                                                <div class="tariffs__item-price">
-                                                    9669$
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-form__item product-item">
-                                        <div class="product-item__top">
-                                            <h2 class="product-item__top-title">
-                                                контактные данные
-                                            </h2>
-                                            <div class="product-item__top-digit">
-                                                02
-                                            </div>
-                                        </div>
-                                        <div class="product-item__contacts contacts">
-                                            <div class="contacts__item">
-                                                <label class="contacts__item-label" for="">
-                                                    Email
-                                                </label>
-                                                <input class="contacts__item-input" type="email">
-                                            </div>
-                                            <div class="contacts__item">
-                                                <label class="contacts__item-label" for="">
-                                                    telegram
-                                                </label>
-                                                <input class="contacts__item-input" type="text">
-                                            </div>
-                                            <div class="contacts__item">
-                                                <label class="contacts__item-label" for="">
-                                                    имя
-                                                </label>
-                                                <input class="contacts__item-input" type="text">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-form__item product-item">
-                                        <div class="product-item__top">
-                                            <h2 class="product-item__top-title">
-                                                Способ оплаты
-                                            </h2>
-                                            <div class="product-item__top-digit">
-                                                03
-                                            </div>
-                                        </div>
-                                        <div class="product-item__payments payments">
-                                            <div class="payments__item payments-item">
-                                                <input class="payments-item__radio" type="radio">
-                                                <div class="payments-item__icon">
-                                                    <img class="payments-item__icon-img" src="images/payments-icon-1.png"
-                                                        alt="icon">
-                                                </div>
-                                                <div class="payments-item__text">
-                                                    tether <br>
-                                                    (trc20)
-                                                </div>
-                                            </div>
-                                            <div class="payments__item payments-item">
-                                                <input class="payments-item__radio" type="radio">
-                                                <div class="payments-item__icon">
-                                                    <img class="payments-item__icon-img" src="images/payments-icon-2.png"
-                                                        alt="icon">
-                                                </div>
-                                                <div class="payments-item__text">
-                                                    tether <br>
-                                                    (bsc)
-                                                </div>
-                                            </div>
-                                            <div class="payments__item payments-item">
-                                                <input class="payments-item__radio" type="radio">
-                                                <div class="payments-item__icon">
-                                                    <img class="payments-item__icon-img" src="images/payments-icon-3.png"
-                                                        alt="icon">
-                                                </div>
-                                                <div class="payments-item__text">
-                                                    tether <br>
-                                                    (erc20)
-                                                </div>
-                                            </div>
-                                            <div class="payments__item payments-item">
-                                                <input class="payments-item__radio" type="radio">
-                                                <div class="payments-item__icon">
-                                                    <img class="payments-item__icon-img" src="images/payments-icon-4.png"
-                                                        alt="icon">
-                                                </div>
-                                                <div class="payments-item__text">
-                                                    BTC <br>
-                                                    (segwit)
-                                                </div>
-                                            </div>
-                                            <div class="payments__item payments-item">
-                                                <input class="payments-item__radio" type="radio">
-                                                <div class="payments-item__icon">
-                                                    <img class="payments-item__icon-img" src="images/payments-icon-5.png"
-                                                        alt="icon">
-                                                </div>
-                                                <div class="payments-item__text">
-                                                    eth <br>
-                                                    (erc20)
+                                                <div class="tariffs__item">
+                                                    <input class="tariffs__item-radio" type="radio" id="3">
+                                                    <div class="tariffs__item-title">
+                                                        Founder
+                                                    </div>
+                                                    <div class="tariffs__item-price">
+                                                        9669$
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="product-form__item product-item">
-                                        <div class="product-item__top">
-                                            <div class="product-item__top-checkbox">
-                                                <label class="container">
-                                                    Я прочитал и согласен с
-                                                    <a href="#">условиями и правилами</a>
-                                                    <br>
-                                                    обработки моих персональных данных.
-                                                    <input type="checkbox" checked="checked">
-                                                    <span class="checkmark"></span>
-                                                </label>
+                                        <div class="product-form__item product-item">
+                                            <div class="product-item__top">
+                                                <h2 class="product-item__top-title">
+                                                    контактные данные
+                                                </h2>
+                                                <div class="product-item__top-digit">
+                                                    02
+                                                </div>
                                             </div>
-                                            <div class="product-item__top-digit">
-                                                04
+                                            <div class="product-item__contacts contacts">
+                                                <div class="contacts__item">
+                                                    <label class="contacts__item-label" for="">
+                                                        Email
+                                                    </label>
+                                                    <input class="contacts__item-input" type="email">
+                                                </div>
+                                                <div class="contacts__item">
+                                                    <label class="contacts__item-label" for="">
+                                                        telegram
+                                                    </label>
+                                                    <input class="contacts__item-input" type="text">
+                                                </div>
+                                                <div class="contacts__item">
+                                                    <label class="contacts__item-label" for="">
+                                                        имя
+                                                    </label>
+                                                    <input class="contacts__item-input" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-form__item product-item">
+                                            <div class="product-item__top">
+                                                <h2 class="product-item__top-title">
+                                                    Способ оплаты
+                                                </h2>
+                                                <div class="product-item__top-digit">
+                                                    03
+                                                </div>
+                                            </div>
+                                            <div class="product-item__payments payments">
+                                                <div class="payments__item payments-item">
+                                                    <input class="payments-item__radio" type="radio">
+                                                    <div class="payments-item__icon">
+                                                        <img class="payments-item__icon-img" src="images/payments-icon-1.png"
+                                                            alt="icon">
+                                                    </div>
+                                                    <div class="payments-item__text">
+                                                        tether <br>
+                                                        (trc20)
+                                                    </div>
+                                                </div>
+                                                <div class="payments__item payments-item">
+                                                    <input class="payments-item__radio" type="radio">
+                                                    <div class="payments-item__icon">
+                                                        <img class="payments-item__icon-img" src="images/payments-icon-2.png"
+                                                            alt="icon">
+                                                    </div>
+                                                    <div class="payments-item__text">
+                                                        tether <br>
+                                                        (bsc)
+                                                    </div>
+                                                </div>
+                                                <div class="payments__item payments-item">
+                                                    <input class="payments-item__radio" type="radio">
+                                                    <div class="payments-item__icon">
+                                                        <img class="payments-item__icon-img" src="images/payments-icon-3.png"
+                                                            alt="icon">
+                                                    </div>
+                                                    <div class="payments-item__text">
+                                                        tether <br>
+                                                        (erc20)
+                                                    </div>
+                                                </div>
+                                                <div class="payments__item payments-item">
+                                                    <input class="payments-item__radio" type="radio">
+                                                    <div class="payments-item__icon">
+                                                        <img class="payments-item__icon-img" src="images/payments-icon-4.png"
+                                                            alt="icon">
+                                                    </div>
+                                                    <div class="payments-item__text">
+                                                        BTC <br>
+                                                        (segwit)
+                                                    </div>
+                                                </div>
+                                                <div class="payments__item payments-item">
+                                                    <input class="payments-item__radio" type="radio">
+                                                    <div class="payments-item__icon">
+                                                        <img class="payments-item__icon-img" src="images/payments-icon-5.png"
+                                                            alt="icon">
+                                                    </div>
+                                                    <div class="payments-item__text">
+                                                        eth <br>
+                                                        (erc20)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-form__item product-item">
+                                            <div class="product-item__top">
+                                                <div class="product-item__top-checkbox">
+                                                    <label class="container">
+                                                        Я прочитал и согласен с
+                                                        <a href="#">условиями и правилами</a>
+                                                        <br>
+                                                        обработки моих персональных данных.
+                                                        <input type="checkbox" checked="checked">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="product-item__top-digit">
+                                                    04
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -486,7 +490,7 @@
                                     </button>
                                 </form>
                             </div>
-                            <div class="product__img">
+                            <div class="product__img" data-aos="zoom-in">
                                 <img class="product__img-imgae" src="images/product-img.png" alt="img">
                             </div>
                         </div>
